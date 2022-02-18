@@ -99,6 +99,7 @@ GEM
       rack (>= 2.0.0)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
+    rack-timeout (0.6.0)
     rails (5.2.6.2)
       actioncable (= 5.2.6.2)
       actionmailer (= 5.2.6.2)
@@ -162,6 +163,7 @@ DEPENDENCIES
   pry-rails
   puma (~> 3.11)
   rack-cors
+  rack-timeout
   rails (~> 5.2.3)
   spring
   spring-watcher-listen (~> 2.0.0)
@@ -171,4 +173,4 @@ RUBY VERSION
    ruby 2.7.5
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
