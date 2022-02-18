@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins ["localhost:3000", 'https://autocomplete-phi.vercel.app/']
+    origins ["localhost:3000", "https://autocomplete-phi.vercel.app/", "https://autocomplete-laneia.vercel.app"]
 
     resource "*",
       headers: :any,
